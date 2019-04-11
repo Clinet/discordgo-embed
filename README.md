@@ -1,7 +1,8 @@
 # discordgo-embed
-[![GoDoc](https://godoc.org/github.com/clinet/discordgo-embed?status.svg)](https://godoc.org/github.com/clinet/discordgo-embed)
-[![Go Report Card](https://goreportcard.com/badge/github.com/clinet/discordgo-embed)](https://goreportcard.com/report/github.com/clinet/discordgo-embed)
-An embed helper library for DiscordGo
+[![GoDoc](https://godoc.org/github.com/Clinet/discordgo-embed?status.svg)](https://godoc.org/github.com/Clinet/discordgo-embed)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Clinet/discordgo-embed)](https://goreportcard.com/report/github.com/Clinet/discordgo-embed)
+<br/>
+An embed helper library for DiscordGo.
 
 # Installing
 `go get github.com/clinet/discordgo-embed`
