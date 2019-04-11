@@ -7,7 +7,7 @@ An embed helper library for DiscordGo
 `go get github.com/clinet/discordgo-embed`
 
 # Example
-`package main
+```package main
 
 import (
     "github.com/bwmarrin/discordgo"
@@ -17,7 +17,7 @@ import (
 // ...
 
 discordSession.ChannelSendEmbed(channelID, embed.NewGenericEmbed("Example", "This is an example embed!"))
-discordSession.ChannelSendEmbed(channelID, embed.NewErrorEmbed("Example Error", "This is an example error embed!"))`
+discordSession.ChannelSendEmbed(channelID, embed.NewErrorEmbed("Example Error", "This is an example error embed!"))```
 
 ## License
 The source code for discordgo-embed is released under the MIT License. See [LICENSE](https://raw.githubusercontent.com/clinet/discordgo-embed/master/LICENSE) for more details.
