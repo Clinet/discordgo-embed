@@ -230,6 +230,13 @@ func (e *Embed) Truncate() *Embed {
 	return e
 }
 
+// Adds last field as InLine
+func (e *Embed) MakeFieldInline() *Embed {
+	length := len(e.Fields)-1
+	e.Fields[length].Inline = true
+	return e
+}
+
 // TruncateFields truncates fields that are too long
 func (e *Embed) TruncateFields() *Embed {
 	if len(e.Fields) > 25 {
